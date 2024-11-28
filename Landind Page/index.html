@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(img.png);
+            background-size: cover;
+            font-family: "Poppins", sans-serif;
+
+        }
+
+        nav {
+            width: 100%;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .l {
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+
+        .bar a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 50px;
+            font-size: 20px;
+        }
+        .bar a:hover{
+            border: 1px solid indianred;
+            background: transparent;
+        }
+
+        .reg a {
+            background-color: indianred;
+            letter-spacing: 5px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 5px;
+
+        }
+        .reg a:hover{
+            border: 1px solid indianred;
+            background: transparent;
+        }
+        .J{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            max-width: 640px;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+        }
+        .J span{
+            font-size: 1.5rem;
+            letter-spacing: 4px;
+        }
+        .J h1{
+            letter-spacing: 5px;
+            font-size: 2.8rem;
+        }
+        .J a{
+            font-size: 1,5rem;
+            letter-spacing: 5px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background-color: indianred;
+            border-radius: 16px;
+        }
+        .J a:hover{
+            border: 1px solid indianred;
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="l">LET'S VISIT</div>
+            <div class="bar">
+                <a href="#">Home</a>
+                <a href="#">Location</a>
+                <a href="#">Offer</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="reg">
+                <a href="#">Sign In</a>
+            </div>
+        </nav>
+        <section class="J">
+            <span>Happy</span>
+            <h1>Journey Around The Earth </h1>
+            <br>
+            <a href="#">Visit Now</a>
+        </section>
+    </header>
+</body>
+
+</html>
